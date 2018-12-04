@@ -1,4 +1,4 @@
-#include "pch.h"
+
 #include "write.h"
 #include <iostream>
 #include <fstream>
@@ -13,7 +13,7 @@ void write(int node, int **a) {//m表示结点的个数
 	for (int i = 0; i < m; ++i) {
 		a[i] = new int[n];
 	}*/
-	ofstream out, out1;
+	ofstream out;
 	out.open("network.txt");
 	if (out) {
 		for (int j = 0; j < node; ++j) {
@@ -24,7 +24,6 @@ void write(int node, int **a) {//m表示结点的个数
 		}
 	}
 	out.close();
-	out1.open("name.txt");
 	/*for (int i = 0; i < row; i++) {//释放
 		delete[] a[i];
 	}

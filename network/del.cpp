@@ -1,4 +1,4 @@
-#include "pch.h"
+
 #include "del.h"
 #include "write.h"
 #include <iostream>

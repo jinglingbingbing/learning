@@ -18,7 +18,7 @@ int main()
 	int node, function;
 	node = 9;
 	int **a = read(node);
-
+        cout << "0.输出指定路由器的路由表" << endl;
 	cout << "1.增加指定的边" << endl;
 	cout << "2.增加一个新的路由器" << endl;
 	cout << "3.删除指定的边" << endl;
